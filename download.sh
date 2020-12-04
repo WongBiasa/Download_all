@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #hallo mau recodekah??
 bi='\033[34;1m' #biru
 ij='\033[32;1m' #ijo
