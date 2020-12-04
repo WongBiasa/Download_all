@@ -86,7 +86,6 @@ bash yt.sh
 echo "========================"
 echo "terinstall"
 fi
-
 #batas
 if [ $pil == "2" ]: then
 echo "Jika mau download keitik  (d nolagu atau download nolagu)"
