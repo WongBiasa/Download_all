@@ -74,7 +74,7 @@ sleep 0.04
 echo "[5].keluar"
 sleep 0.03
 read -p "pilih|-=(1/2/3/4/5)=-|" pil
-if [ $pil == "1" ]; then
+if [[ $pil == "1" ]]; then
 cd/sdcard
 echo $me"Install dulu om"
 echo $ku"========================"
@@ -88,7 +88,7 @@ echo "terinstall"
 fi
 
 #batas
-if [ $pil == "2" ]: then
+if [[ $pil == "2" ]]; then
 echo "Jika mau download keitik  (d nolagu atau download nolagu)"
 echo $me"load"#wongbiasa/whomhw
 pip install mps_youtube
@@ -98,7 +98,7 @@ search
 fi
 
 #batas
-if [ $pil == "3" ]; then
+if [[ $pil == "3" ]]; then
 echo $me"nama kota elu :"
 read kota
 curl http://wttr.in/$kota
@@ -106,14 +106,14 @@ sleep 1
 fi
 
 #batas
-if [ $pil == "4" ]; then
+if [[ $pil == "4" ]]; then
 read -p "masukkan nomor tanpa(0/+62) :" nomor
 link="https://id.jagreward.com/member/verify-mobile/$nomor"
 curl -s $link
 fi
 
 #batas
-if [ $pil == "5" ]; then
+if [[ $pil == "5" ]]; then
 echo $me"press enter untuk keluar"
 read f
 echo $cy"======================"
