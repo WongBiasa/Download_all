@@ -86,6 +86,7 @@ bash yt.sh
 echo "========================"
 echo "terinstall"
 fi
+
 #batas
 if [ $pil == "2" ]: then
 echo "Jika mau download keitik  (d nolagu atau download nolagu)"
@@ -95,6 +96,7 @@ pip install youtube_dl
 pkg install mpv -y
 search 
 fi
+
 #batas
 if [ $pil == "3" ]; then
 echo $me"nama kota elu :"
@@ -102,12 +104,14 @@ read kota
 curl http://wttr.in/$kota
 sleep 1
 fi
+
 #batas
 if [ $pil == "4" ]; then
 read -p "masukkan nomor tanpa(0/+62) :" nomor
 link="https://id.jagreward.com/member/verify-mobile/$nomor"
 curl -s $link
 fi
+
 #batas
 if [ $pil == "5" ]; then
 echo $me"press enter untuk keluar"
