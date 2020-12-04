@@ -116,4 +116,6 @@ echo $cy"======================"
 echo $me"Terima kasih telah Menggunakan"
 echo $ku".        WhoMHw.                      "
 echo $ij"======================="
-echo $pr"Terimakasih $nama"
+fi
+
+echo $me"Terimakasih telah menggunakan tools ini $nama jones:v"
